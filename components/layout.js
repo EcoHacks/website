@@ -62,7 +62,7 @@ export default props => {
             variant="styles.navitem"
             sx={{ display: ['none', 'block'], fontWeight: 'mediumbold' }}
           >
-            AngelHacks
+            EcoHacks
           </A>
         </Link>
         <Box sx={{ mx: 'auto' }} />
@@ -113,20 +113,20 @@ export default props => {
         >
           <Flex sx={{ justifyContent: 'center' }}>
             <A
-              href="https://instagram.com/angelhacks.la"
+              href="https://www.instagram.com/the6thnerd/"
               title="Instagram"
               sx={{ mx: 2 }}
             >
               <Icon glyph="instagram" size={36} />
             </A>
             <A
-              href="https://github.com/angelhacks/site"
+              href="https://github.com/ecohacks/website"
               title="GitHub"
               sx={{ mx: 2 }}
             >
               <Icon glyph="github" size={36} />
             </A>
-            <A href="mailto:claire@angelhacks.org" title="Email" sx={{ mx: 2 }}>
+            <A href="mailto:garrett@emshack.club" title="Email" sx={{ mx: 2 }}>
               <Icon glyph="email" size={36} />
             </A>
           </Flex>
@@ -138,7 +138,7 @@ export default props => {
             }}
           >
             <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit' }}>
-              AngelHacks, event run by Ad Astra Hack Club
+              EcoHacks, event run by members of <A href="https://hackclub.com">Hack Club</A>
             </Text>
             <Text
               sx={{
