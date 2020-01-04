@@ -22,23 +22,8 @@ export const palette = {
   snow: '#f9fafc',
   white: '#ffffff',
   // brand
-  primary: '#ffb400',
-  primaryWash: '#ffdc89',
-  /*
-  alt: '#007a87',
-  altWash: '#bfe6ea',
-  altWashLight: '#dffbfd',
-  altLight: '#009aab',
-  altDark: '#004f58',
-  accent: '#ff5a5f',
-  accentLight: '#ff7e82',
-  accentWash: '#ffd4d5',
-  accentDark: '#e00007',
-  success: '#3fb34f',
-  error: '#b23f42',
-  cool: '#00bdde',
-  coolWash: '#7cecff'
-  */
+  primary: '#0ad48b',
+  primaryWash: '#befad9',
   alt: '#13cfbf',
   altDark: '#05386b',
   altLight: '#6ed5fa',
