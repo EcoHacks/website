@@ -11,7 +11,7 @@ const data = {
       name: 'Hack Club Bank',
       link: 'https://hackclub.com/bank',
       image:
-        'https://cdn.glitch.com/747f5921-6fdc-45db-8eaa-ac12523e0e6c%2Fhackclub-bank.svg?v=1566159701206'
+        'https://ecohacks.io/static/hackbank-light.png'
     },
   ],
   additionalSupport: [
