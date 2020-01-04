@@ -1,5 +1,5 @@
-# AngelHacks 2019 site
+# EcoHacks
 
-[**angelhacks.org**](https://angelhacks.org)
+Coming Soon!
 
 MIT License
