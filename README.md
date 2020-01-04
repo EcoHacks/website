@@ -1,5 +1,7 @@
-# AngelHacks 2019 site
+# EcoHacks 2020 site
 
-[**angelhacks.org**](https://angelhacks.org)
+[**ecohacks.io**](https://ecohacks.io)
+
+Keep an eye out for updates! 👀
 
 MIT License
