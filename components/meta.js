@@ -3,7 +3,7 @@ import Head from 'next/head'
 export default ({
   title = 'EcoHacks - Changing the environment!',
   description = 'A high school hackathon focusing on the environmental issues of today, one line of code at a time.',
-  image = 'https://ecohacks.io/static/banner-inverted.png',
+  image = 'https://ecohacks.io/static/banner-dark.png',
   url = 'https://ecohacks.io'
 }) => (
   <Head>
@@ -12,7 +12,7 @@ export default ({
     <meta name="twitter:title" content={title} />
     <meta name="og:url" content={url} />
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="AngelHacks" />
+    <meta property="og:site_name" content="EcoHacks" />
     <meta name="twitter:site" content="@angelhacks_la" />
     <meta name="description" content={description} />
     <meta property="og:description" content={description} />
