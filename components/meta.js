@@ -37,9 +37,9 @@ export default ({
           contactPoint: [
             {
               '@type': 'ContactPoint',
-              email: 'hello@angelhacks.org',
+              email: 'team@ecohacks.io',
               contactType: 'customer support',
-              url: 'https://angelhacks.org'
+              url: 'https://ecohacks.io'
             }
           ]
         })
@@ -51,25 +51,14 @@ export default ({
         __html: JSON.stringify({
           '@context': 'http://schema.org/',
           '@type': 'Event',
-          name: 'AngelHacks',
+          name: 'EcoHacks',
           startDate: '2019-10-26T9:00',
           endDate: '2019-10-26T21:00',
           description:
-            'Register today for 12 hours of coding, fun, free food, and prizes. AngelHacks will be on October 26, 2019 and open to all middle and high school students.',
+            'Welcome to Ecohacks!',
           isAccessibleForFree: true,
-          url: 'https://angelhacks.org',
-          image: 'https://angelhacks.org/static/logo-inverted.png',
-          location: {
-            '@type': 'Place',
-            name: 'Snapchat Headquarters',
-            address: {
-              '@type': 'PostalAddress',
-              addressLocality: 'Los Angeles',
-              addressRegion: 'CA',
-              postalCode: '90291',
-              streetAddress: '606 Venice Blvd., Venice 90291'
-            }
-          },
+          url: 'https://ecohacks.io',
+          image: 'https://ecohacks.io/static/logo-inverted.png',
           sponsor: {
             '@type': 'Organization',
             name: 'Hack Club',
@@ -78,7 +67,7 @@ export default ({
           offers: {
             '@type': 'Offer',
             name: 'Free Admission',
-            url: 'https://angelhacks.com',
+            url: 'https://ecohacks.io',
             price: '0',
             priceCurrency: 'USD',
             availability: 'https://schema.org/InStock',
@@ -87,7 +76,7 @@ export default ({
           },
           performer: {
             '@type': 'PerformingGroup',
-            name: 'AngelHacks Ad Astra Team'
+            name: 'People All Around the World'
           }
         })
       }}

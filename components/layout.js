@@ -120,7 +120,7 @@ export default props => {
               <Icon glyph="instagram" size={36} />
             </A>
             <A
-              href="https://github.com/angelhacks/site"
+              href="https://github.com/ecohacks/website"
               title="GitHub"
               sx={{ mx: 2 }}
             >
