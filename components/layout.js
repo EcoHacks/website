@@ -70,11 +70,11 @@ export default props => {
           <A variant="styles.navitem">Schedule</A>
         </Link>
         <Link href="/register">
-          <A variant="styles.navitem">Register</A>
+          <A variant="styles.navitem" >Register</A>
         </Link>
-        <Link href="/about">
+        {/*<Link href="/about">
           <A variant="styles.navitem">About</A>
-        </Link>
+      </Link>*/}
         <ColorButton
           sx={{ ml: [2, 3] }}
           onClick={e => {
@@ -138,7 +138,7 @@ export default props => {
             }}
           >
             <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit' }}>
-              AngelHacks, event run by Ad Astra Hack Club
+              EcoHacks, event run by People from Around the World
             </Text>
             <Text
               sx={{

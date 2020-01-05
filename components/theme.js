@@ -24,6 +24,7 @@ export const palette = {
   // brand
   primary: '#0ad48b',
   primaryWash: '#befad9',
+  darkWash:"#1ca658",
   alt: '#13cfbf',
   altDark: '#05386b',
   altLight: '#6ed5fa',
@@ -44,7 +45,7 @@ const theme = merge(base, {
   breakpoints,
   space,
   fontSizes,
-  initialColorMode: 'light',
+  initialColorMode: 'dark',
   colors: {
     ...palette,
     text: palette.black,
@@ -63,7 +64,7 @@ const theme = merge(base, {
         cards: palette.darkless,
         sunken: palette.black,
         // primaryWash: '#3f3822',
-        primaryWash: palette.primaryWash,
+        primaryWash: palette.darkWash,
         bannerBG: palette.bandark,
         //bannerColor: palette.primary,
         bannerColor: palette.coolWash,
