@@ -62,7 +62,7 @@ export default props => {
             variant="styles.navitem"
             sx={{ display: ['none', 'block'], fontWeight: 'mediumbold' }}
           >
-            AngelHacks
+            EcoHacks
           </A>
         </Link>
         <Box sx={{ mx: 'auto' }} />
