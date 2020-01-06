@@ -18,7 +18,7 @@ const data = {
     {
       name: 'Placeholder',
       link: 'https://sketchapp.com/',
-      image: 'https://angelhacks.org/static/sketch-logo.png'
+      image: 'https://ecohacks.io/static/sketch-logo.png'
     },
   ]
 }

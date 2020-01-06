@@ -26,13 +26,11 @@ export default ({
         __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          name: 'angelhacks',
-          url: 'https://angelhacks.org',
-          logo: 'https://angelhacks.org/logo_inverted.png',
+          name: 'ecohacks',
+          url: 'https://ecohacks.io',
+          logo: 'https://ecohacks.io/logo_inverted.png',
           sameAs: [
-            'https://twitter.com/angelhacks_la',
-            'https://www.instagram.com/angelhacks.la',
-            'https://www.facebook.com/angelhacks_la'
+            //socials
           ],
           contactPoint: [
             {
