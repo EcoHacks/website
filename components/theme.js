@@ -31,7 +31,7 @@ export const palette = {
   altWash: '#379683',
   altWashLight: '#9cf0df',
   accent: '#5cdb95',
-  accentWash: '#befad9',
+  accentWash: '#befad9', // note, change the colors here to not be AngelHacks
   accentLight: '#8ee4af',
   accentDark: '#189975',
   success: '#3fb34f',

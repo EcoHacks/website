@@ -15,11 +15,12 @@ const data = {
     },
   ],
   additionalSupport: [
-    {
-      name: 'Placeholder',
-      link: 'https://sketchapp.com/',
-      image: 'https://ecohacks.io/static/sketch-logo.png'
-    },
+    // {
+    //   name: 'Placeholder',
+    //   link: 'https://sketchapp.com/',
+    //   image: 'https://ecohacks.io/static/sketch-logo.png'
+    // },
+    // currently we DO NOT have any sponsors, let's get rid of the placeholder to not seem unprofessional
   ]
 }
 

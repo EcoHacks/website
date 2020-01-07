@@ -6,7 +6,7 @@ export default ({ size = 50, light = false, ...props }) => (
     <A sx={{ cursor: 'pointer', lineHeight: 0 }}>
       <Image
         {...props}
-        src="/static/logo-inverted.png"
+        src="https://ecohacks.io/static/logo-inverted.png" // always use the URL and not file path
         alt="EcoHacks avatar"
         width={size}
         height={size}
