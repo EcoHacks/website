@@ -1,4 +1,4 @@
-import { Box } from 'rebass'
+import { Box } from '@theme-ui/components'
 
 export const Banner = props => (
   <Box
@@ -19,7 +19,6 @@ export const Banner = props => (
           fontSize: [5, 6, 7],
           fontWeight: 'bold',
           lineHeight: 'tight',
-          textShadow: '0 0 5px currentColor',
           mb: 3
         },
         h2: {

@@ -1,4 +1,4 @@
-import { Box, Flex, Text, Link as A } from 'rebass'
+import { Box, Flex, Text, Link as A } from '@theme-ui/components'
 import { useColorMode } from 'theme-ui'
 import Link from 'next/link'
 import Icon from './icon'
@@ -70,11 +70,11 @@ export default props => {
           <A variant="styles.navitem">Schedule</A>
         </Link>
         <Link href="/register">
-          <A variant="styles.navitem" >Register</A>
+          <A variant="styles.navitem">Register</A>
         </Link>
         {/*<Link href="/about">
           <A variant="styles.navitem">About</A>
-      </Link>*/}
+        </Link>*/}
         <ColorButton
           sx={{ ml: [2, 3] }}
           onClick={e => {
@@ -98,7 +98,7 @@ export default props => {
         variant="container"
         sx={{
           px: 3,
-          py: 5,
+          py: [4, 5],
           width: '100%',
           maxWidth: 'wide',
           mx: 'auto'
@@ -130,29 +130,19 @@ export default props => {
               <Icon glyph="email" size={36} />
             </A>
           </Flex>
-          <Box
+          <Text
             sx={{
-              mt: [3, 4],
+              color: 'muted',
+              fontSize: 0,
+              mt: [2, 3],
               textAlign: 'center',
-              a: { fontSize: 1 }
+              mb: 0
             }}
           >
-            <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit' }}>
-              EcoHacks, event run by People from Around the World
-            </Text>
-            <Text
-              sx={{
-                color: 'muted',
-                fontSize: 0,
-                mt: 1,
-                mb: 0
-              }}
-            >
-              Fiscally sponsored by The Hack Foundation.
-              <br />
-              Nonprofit EIN: 81-2908499.
-            </Text>
-          </Box>
+            Fiscally sponsored by The Hack Foundation.
+            <br />
+            Nonprofit EIN: 81-2908499.
+          </Text>
         </Box>
       </Box>
     </>

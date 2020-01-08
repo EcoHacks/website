@@ -1,6 +1,6 @@
 import { Banner, List, Container, Callout, Gallery, FAQ, Team } from '../components/blocks'
 import { Header, Schedule } from '../components/blocks'
-import { Box, Button } from 'rebass'
+import { Box, Button } from '@theme-ui/components'
 import Link from 'next/link'
 // import CTA from '../components/cta'
 import Sponsors from '../components/sponsors'
@@ -10,16 +10,15 @@ import Photo from '../components/photo'
 
 # EcoHacks 
 
-## A high school hackathon focusing on the environmental issues of today, one line of code at a time. 
+## A high school hackathon for today’s environmental issues.
 
-July 2020 @ SF
-
+July 2020 in San Francisco, CA
 
 </Banner>
 
 <Container
-width="narrow"
-sx={{
+  width="narrow"
+  sx={{
     p: {
       fontSize: [2, 3, 4],
       color: 'muted',
@@ -39,10 +38,10 @@ A great place for high schoolers to meet others like them and create amazing pro
 
 <Gallery>
 
-<Photo showAlt alt="Students with their teams (@CodeDay Ohio)" src="https://lh3.googleusercontent.com/S5_VXw488dsrjTDXPROmCksmI5qLGZ_IVHLnyoQRpYarHYUdDnqemGa3PFL1x0Ph0rfByEIygmoSFUg8HDaRTAX9txD5xAkP1Hrp2RiItnLwJnhg-uprOT_fTaPuOtyFOHMXRIxx5ekpgHHC30XGVPWvwxrebz1kxJhtqAbUlMBjWvYUrEWcB6m0YGqn8Dk3RxL1VqDQQocfzoPK_oNIxRajt1fVyaKi6cbNqK-pNGsEv23MaAeP_QT_bGbtlwgeHhB-7VIxi874YSgNfQqVNKxOnbeKos0coEby6xCmKWBKXuaPSTnT1ghbeXYca_-GX9DW7MRC3SOeaUm3cJrEjnMcDfzTmeg1obiB1ylBSI32FRnUeSRBB5flMS677EK4OrY9Dugp7f8fceWP-ufsu-uSXOTCpdKumbVwNQcb9F_3tAHpF-WbTP5RfIz5YviqARGYCTfxgCzyu-NPGdTdF1ThA9ymLX9KLTZDWXt0vcMFvoW5tdbmccebJKNNQyteWozK4P4w5vLlJPZtQcmy2LrIC0jVCJri69LIami2fzi3jMzNYDRcC-bSnaDLjLvz84Uf804swfYTA9PkAuC-E8dx0DKutNLXmw4DAHn2JDwCALycV9iu6UXDTxrxH5BS_o9x4R3u4MzNIN1_-LIDNgCdm725Br7_F9fAx1JavGfe2Z1V6IYkJe1RC_FZSvrriUDXdnZ36qCJX4hSv9-9xu4EN6xVdZyzRIFYNPWDJulY0_A_gA=w1440-h685-no" />
-<Photo showAlt alt="Students working on projects (@AngelHacks)" src="https://lh3.googleusercontent.com/OhKms3fdlopgcSVkKfzzwWyTR9iehbYTV53hU3gNBACz9GCodbyFLRYrNecnJ0R2SkutT-wZbTWCljW7E20CD9XCYek4A_oV06UA5NFZQDeIYsUJ-53ZAC7Yno5D7wu5Fald13yXn1gKcpJWx0d0eZkQx52-6Hh8Ffb8kyfaF1E7f53EAl01Lo30q1BeIFT-JOkBjmXh3VTRfCPcvDF4AUsWwjdKkKM17Yw0BZE0VKIherAXXiwpj_EeZXs9ZEWORzXqxggW_v_wylzlmPchUEBaaMEqAGYuVGzNiBpLdXNrws7P1R8rQKAmeTSQ_JkZLuONP9-IPcczxvGoiHzK_pjr1qJGwJcn4VAawFnXDDEr7Qf89xmVwUFXhQhlpBMD0ZjSdiXySMxs5v14-dBDVbW3HKntxagquQ7ZBV9TIm__r9pHpMKwDhMFKqGQvs7uQeij3DhrZyPNf2c4pCZ2kZu3MtGmJSrCWitdWpzAHRBeW6FzdQ0TTwpjqPj7UEKia1P8VZNmwZ3acz6sFsD-tm7j7761KJyTMtxemxpgO1PkewAs7GSySrU2icAmXf3eXqtdhoRe670xUKszTkM750-uNpWFRdsyj1Lg70cgpC3oqb73JEg7H3EiVVnLLKsZ1g5Z8fGYk0BYuTEX4cWE87AQXx7g6M6Tbjdxh-eXtKvGLdQpwWDyP6S3SViPPKCMCLRCNdOEWzxeaVZMYutoGAnZwwvJ2vQtlAPTc1lDQUbpTBSqKQ=w1910-h1432-no" />
+<Photo showAlt alt="Students with their teams (@ CodeDay Ohio)" src="https://lh3.googleusercontent.com/S5_VXw488dsrjTDXPROmCksmI5qLGZ_IVHLnyoQRpYarHYUdDnqemGa3PFL1x0Ph0rfByEIygmoSFUg8HDaRTAX9txD5xAkP1Hrp2RiItnLwJnhg-uprOT_fTaPuOtyFOHMXRIxx5ekpgHHC30XGVPWvwxrebz1kxJhtqAbUlMBjWvYUrEWcB6m0YGqn8Dk3RxL1VqDQQocfzoPK_oNIxRajt1fVyaKi6cbNqK-pNGsEv23MaAeP_QT_bGbtlwgeHhB-7VIxi874YSgNfQqVNKxOnbeKos0coEby6xCmKWBKXuaPSTnT1ghbeXYca_-GX9DW7MRC3SOeaUm3cJrEjnMcDfzTmeg1obiB1ylBSI32FRnUeSRBB5flMS677EK4OrY9Dugp7f8fceWP-ufsu-uSXOTCpdKumbVwNQcb9F_3tAHpF-WbTP5RfIz5YviqARGYCTfxgCzyu-NPGdTdF1ThA9ymLX9KLTZDWXt0vcMFvoW5tdbmccebJKNNQyteWozK4P4w5vLlJPZtQcmy2LrIC0jVCJri69LIami2fzi3jMzNYDRcC-bSnaDLjLvz84Uf804swfYTA9PkAuC-E8dx0DKutNLXmw4DAHn2JDwCALycV9iu6UXDTxrxH5BS_o9x4R3u4MzNIN1_-LIDNgCdm725Br7_F9fAx1JavGfe2Z1V6IYkJe1RC_FZSvrriUDXdnZ36qCJX4hSv9-9xu4EN6xVdZyzRIFYNPWDJulY0_A_gA=w1440-h685-no" />
+<Photo showAlt alt="Students working on projects (@ AngelHacks)" src="https://lh3.googleusercontent.com/OhKms3fdlopgcSVkKfzzwWyTR9iehbYTV53hU3gNBACz9GCodbyFLRYrNecnJ0R2SkutT-wZbTWCljW7E20CD9XCYek4A_oV06UA5NFZQDeIYsUJ-53ZAC7Yno5D7wu5Fald13yXn1gKcpJWx0d0eZkQx52-6Hh8Ffb8kyfaF1E7f53EAl01Lo30q1BeIFT-JOkBjmXh3VTRfCPcvDF4AUsWwjdKkKM17Yw0BZE0VKIherAXXiwpj_EeZXs9ZEWORzXqxggW_v_wylzlmPchUEBaaMEqAGYuVGzNiBpLdXNrws7P1R8rQKAmeTSQ_JkZLuONP9-IPcczxvGoiHzK_pjr1qJGwJcn4VAawFnXDDEr7Qf89xmVwUFXhQhlpBMD0ZjSdiXySMxs5v14-dBDVbW3HKntxagquQ7ZBV9TIm__r9pHpMKwDhMFKqGQvs7uQeij3DhrZyPNf2c4pCZ2kZu3MtGmJSrCWitdWpzAHRBeW6FzdQ0TTwpjqPj7UEKia1P8VZNmwZ3acz6sFsD-tm7j7761KJyTMtxemxpgO1PkewAs7GSySrU2icAmXf3eXqtdhoRe670xUKszTkM750-uNpWFRdsyj1Lg70cgpC3oqb73JEg7H3EiVVnLLKsZ1g5Z8fGYk0BYuTEX4cWE87AQXx7g6M6Tbjdxh-eXtKvGLdQpwWDyP6S3SViPPKCMCLRCNdOEWzxeaVZMYutoGAnZwwvJ2vQtlAPTc1lDQUbpTBSqKQ=w1910-h1432-no" />
 
-<Box variant="card" sx={{backgroundColor:"red"}}>
+<Box variant="card">
 
 ## Help the Earth 🌎
 

@@ -1,5 +1,4 @@
-
-import base from '@rebass/preset'
+import { base } from '@theme-ui/presets'
 import { merge } from 'lodash'
 
 export const breakpoints = [32, 48, 64].map(w => `${w}em`)
@@ -24,7 +23,7 @@ export const palette = {
   // brand
   primary: '#0ad48b',
   primaryWash: '#befad9',
-  darkWash:"#1ca658",
+  darkWash: '#1ca658',
   alt: '#13cfbf',
   altDark: '#05386b',
   altLight: '#6ed5fa',
@@ -45,7 +44,7 @@ const theme = merge(base, {
   breakpoints,
   space,
   fontSizes,
-  initialColorMode: 'dark',
+  initialColorMode: 'light',
   colors: {
     ...palette,
     text: palette.black,
@@ -63,14 +62,12 @@ const theme = merge(base, {
         background: palette.dark,
         cards: palette.darkless,
         sunken: palette.black,
-        // primaryWash: '#3f3822',
         primaryWash: palette.darkWash,
         bannerBG: palette.bandark,
-        //bannerColor: palette.primary,
         bannerColor: palette.coolWash,
         bannerColorAlt: palette.primaryWash,
         coolBg: palette.dark,
-        cards: palette.darkless,
+        cards: palette.darkless
       }
     }
   },

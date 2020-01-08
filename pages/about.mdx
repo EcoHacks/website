@@ -1,5 +1,5 @@
 import { Header, Container, Gallery } from '../components/blocks'
-import { Box, Button } from 'rebass'
+import { Box, Button } from '@theme-ui/components'
 import Photo from '../components/photo'
 
 <Header sx={{ bg: 'primary' }} width="narrow">
@@ -8,48 +8,25 @@ import Photo from '../components/photo'
 
 </Header>
 
-<Container width="narrow"
-  sx={{
-    h1: {
-      fontSize: 5,
-      fontWeight: 'bold'
-    },
-    strong: {
-      color: 'alt'
-    }
-  }}>
+<Container width="narrow">
 
 # Themes
 
-EcoHacks is dedicated to giving back to the community—and we do that in part by encouraging students to make projects that do exactly that! We'll be giving 3 prizes to each category on top of the general prize -- that means, even if you don't win the overall prize, you can still get a cool award just by winning a category!
+EcoHacks is dedicated to giving back to the community—and we do that in part by encouraging students to make projects that do exactly that! We'll be giving 3 prizes to each category on top of the general prize—that means, even if you don't win the overall prize, you can still get a cool award just by winning a category!
 
 </Container>
 
-<Gallery sx={{
-    '> div': {
-        bg: 'smoke'
-    },
-}}>
+<Gallery>
 
-<Box variant="card"
-sx={{
-    h2: {
-        color: 'accent',
-    },
-    }}>
+<Box variant="card">
 
 ## Environment
 
-Make something that helps the environment. It may seem like a hard thing, but remember, the small things count! Ship projects that count someone's carbon emissions, or tell you the truth about each state's pollution regulations. Be creative -- what does the environment mean to you? It doesn't have to be just the greenery, it could be how other people interact, or how the people around you behave.
+Make something that helps the environment. It may seem like a hard thing, but remember, the small things count! Ship projects that count someone's carbon emissions, or tell you the truth about each state's pollution regulations. Be creative—what does the environment mean to you? It doesn't have to be just the greenery, it could be how other people interact, or how the people around you behave.
 
 </Box>
 
-<Box variant="card"
-sx={{
-        h2: {
-            color: 'accentDark',
-        }
-    }} >
+<Box variant="card">
 
 ## Education
 
@@ -58,12 +35,8 @@ A major goal of EcoHacks is to improve education—especially in computer scienc
 </Box>
 
 </Gallery>
-<Container width="narrow"
-    sx={{
-        h1: {
-            fontWeight:"bold"
-        }
-    }}>
+
+<Container width="narrow">
 
 # We’re driven by a mission.
 

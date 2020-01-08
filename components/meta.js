@@ -52,8 +52,7 @@ export default ({
           name: 'EcoHacks',
           startDate: '2019-10-26T9:00',
           endDate: '2019-10-26T21:00',
-          description:
-            'Welcome to Ecohacks!',
+          description: 'Welcome to Ecohacks!',
           isAccessibleForFree: true,
           url: 'https://ecohacks.io',
           image: 'https://ecohacks.io/static/logo-inverted.png',
