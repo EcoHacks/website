@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "build": "node_modules/.bin/next build && node_modules/.bin/next export",
-    "start": "node_modules/.bin/next"
+    "start": "node_modules/.bin/next",
+    "fmt": "npx prettier \"{components,pages}/**.js\" --write"
   },
   "dependencies": {
     "@emotion/styled": "^10.0.27",

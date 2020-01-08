@@ -10,9 +10,8 @@ const data = {
     {
       name: 'Hack Club Bank',
       link: 'https://hackclub.com/bank',
-      image:
-        'https://ecohacks.io/static/hackbank-light.png'
-    },
+      image: 'https://ecohacks.io/static/hackbank-light.png'
+    }
   ],
   additionalSupport: [
     // {
@@ -41,7 +40,7 @@ const Base = styled(Box)`
     max-width: 75%;
     max-height: ${props => (props.section === 'sponsors' ? 6 : 4)}rem;
     ${props =>
-      props.colorMode === 'dark' && `filter: invert() hue-rotate(180deg);`}
+      props.colorMode === 'dark' && `filter: invert() hue-rotate(180deg);`};
   }
 `
 

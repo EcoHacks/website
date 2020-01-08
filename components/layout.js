@@ -70,7 +70,7 @@ export default props => {
           <A variant="styles.navitem">Schedule</A>
         </Link>
         <Link href="/register">
-          <A variant="styles.navitem" >Register</A>
+          <A variant="styles.navitem">Register</A>
         </Link>
         {/*<Link href="/about">
           <A variant="styles.navitem">About</A>
