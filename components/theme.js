@@ -1,4 +1,4 @@
-import base from '@rebass/preset'
+import { base } from '@theme-ui/presets'
 import { merge } from 'lodash'
 
 export const breakpoints = [32, 48, 64].map(w => `${w}em`)
