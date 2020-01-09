@@ -3,7 +3,7 @@ import Head from 'next/head'
 export default ({
   title = 'EcoHacks - Changing the environment!',
   description = 'A high school hackathon focusing on the environmental issues of today, one line of code at a time.',
-  image = 'https://ecohacks.io/static/banner-dark.png',
+  image = 'https://ecohacks.io/banner-dark.png',
   url = 'https://ecohacks.io'
 }) => (
   <Head>
@@ -55,7 +55,7 @@ export default ({
           description: 'Welcome to Ecohacks!',
           isAccessibleForFree: true,
           url: 'https://ecohacks.io',
-          image: 'https://ecohacks.io/static/logo-inverted.png',
+          image: 'https://ecohacks.io/logo-inverted.png',
           sponsor: {
             '@type': 'Organization',
             name: 'Hack Club',

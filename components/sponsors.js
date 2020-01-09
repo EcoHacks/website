@@ -9,14 +9,14 @@ const data = {
     {
       name: 'Hack Club Bank',
       link: 'https://hackclub.com/bank',
-      image: 'https://ecohacks.io/static/hackbank-light.png'
+      image: 'https://ecohacks.io/hackbank-light.png'
     }
   ],
   additionalSupport: [
     // {
     //   name: 'Placeholder',
     //   link: 'https://sketchapp.com/',
-    //   image: 'https://ecohacks.io/static/sketch-logo.png'
+    //   image: 'https://ecohacks.io/sketch-logo.png'
     // },
     // currently we DO NOT have any sponsors, let's get rid of the placeholder to not seem unprofessional
   ]
