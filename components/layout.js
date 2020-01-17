@@ -112,8 +112,15 @@ export default props => {
           }}
         >
           <Flex sx={{ justifyContent: 'center' }}>
+          <A
+              href="https://twitter.com/EcoHacksUS"
+              title="Twitter"
+              sx={{ mx: 2 }}
+            >
+              <Icon glyph="twitter" size={36} />
+            </A>
             <A
-              href="https://instagram.com/"
+              href="https://www.instagram.com/ecohacksus/"
               title="Instagram"
               sx={{ mx: 2 }}
             >
