@@ -14,7 +14,7 @@
     "@hackclub/icons": "^0.0.4",
     "@mdx-js/react": "^1.6.18",
     "@theme-ui/components": "^0.3.1",
-    "@theme-ui/presets": "^0.3.0",
+    "@theme-ui/presets": "^0.7.5",
     "@zeit/next-mdx": "^1.2.0",
     "babel-plugin-emotion": "^10.0.33",
     "emotion": "^10.0.27",
